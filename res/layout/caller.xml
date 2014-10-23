@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/CallerRegion"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/align_size_s" >
+
+    <EditText
+        android:id="@+id/phone_number_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_edittext_border"
+        android:drawableRight="@drawable/delete"
+        android:focusable="false"
+        android:inputType="phone"
+        android:textSize="@dimen/text_size_l" /> <!-- android:numeric="decimal" -->
+
+
+    <!--
+         <ImageButton
+        android:id="@+id/button_arrow"
+        style="@style/CallerButton"
+        android:src="@drawable/buttonarrow" />
+    -->
+
+
+    <!--
+         <ImageButton
+        android:id="@+id/button_phone"
+        style="@style/CallerButton"
+        android:onClick="buttonPhone_click"
+        android:src="@drawable/buttonphone" />
+    -->
+
+</LinearLayout>
